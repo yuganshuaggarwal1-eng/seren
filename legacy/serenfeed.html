@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SerenFeed - Share Your Story</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="serenfeed.css">
+
+    <!--Java script-->
+    <script src="serenfeed.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+   <img src="serenfeed img/serenfeed-logo.png" alt="Serenfeed" height="65px">
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#">Home</a></li>
+<li><a href="#">Explore</a></li>
+<li><a href="#">Categories</a></li>
+<li><a href="#">Write</a></li>
+<li><a href="#">About</a></li>
+
+</ul>
+
+<div class="nav-right">
+
+<div class="search-box">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<input
+type="text"
+placeholder="Search blogs...">
+
+</div>
+
+<button class="login-btn">Login</button>
+
+<button class="signup-btn">
+Sign Up
+</button>
+
+</div>
+
+<div class="menu-btn">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+Share Your Stories.<br>
+Inspire the World.
+</h1>
+
+<p>
+
+Discover amazing articles from passionate writers or
+publish your own thoughts with SerenFeed.
+
+</p>
+
+<div class="hero-buttons">
+
+<button class="primary-btn">
+Start Writing
+</button>
+
+<button class="secondary-btn">
+Explore Blogs
+</button>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900"
+alt="Hero">
+
+</div>
+
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories">
+
+<h2>Popular Categories</h2>
+
+<div class="category-grid">
+
+<div class="category-card">Technology</div>
+
+<div class="category-card">Programming</div>
+
+<div class="category-card">Artificial Intelligence</div>
+
+<div class="category-card">Business</div>
+
+<div class="category-card">Lifestyle</div>
+
+<div class="category-card">Travel</div>
+
+<div class="category-card">Food</div>
+
+<div class="category-card">Education</div>
+
+</div>
+
+</section>
+
+<!-- ================= BLOGS ================= -->
+
+<section class="blogs">
+
+<h2>Featured Blogs</h2>
+
+<div class="blog-grid">
+
+<!-- Card 1 -->
+
+<div class="blog-card">
+
+<img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800">
+
+<div class="blog-content">
+
+<span class="tag">
+Technology
+</span>
+
+<h3>
+The Future of Artificial Intelligence
+</h3>
+
+<p>
+
+Explore how AI is changing the world and
+what the future holds.
+
+</p>
+
+<div class="blog-footer">
+
+<div class="author">
+
+<img src="https://i.pravatar.cc/100?img=12">
+
+<div>
+
+<h4>Harsh Singh</h4>
+
+<span>5 min read</span>
+
+</div>
+
+</div>
+
+<button class="read-btn">
+Read More
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 2 -->
+
+<div class="blog-card">
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800">
+
+<div class="blog-content">
+
+<span class="tag">
+Lifestyle
+</span>
+
+<h3>
+
+Minimal Living in 2026
+
+</h3>
+
+<p>
+
+Simple habits that improve your lifestyle.
+
+</p>
+
+<div class="blog-footer">
+
+<div class="author">
+
+<img src="https://i.pravatar.cc/100?img=20">
+
+<div>
+
+<h4>Sarah Wilson</h4>
+
+<span>7 min read</span>
+
+</div>
+
+</div>
+
+<button class="read-btn">
+Read More
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 3 -->
+
+<div class="blog-card">
+
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800">
+
+<div class="blog-content">
+
+<span class="tag">
+Programming
+</span>
+
+<h3>
+
+Master JavaScript in 30 Days
+
+</h3>
+
+<p>
+
+A practical roadmap to become a JavaScript developer.
+
+</p>
+
+<div class="blog-footer">
+
+<div class="author">
+
+<img src="https://i.pravatar.cc/100?img=15">
+
+<div>
+
+<h4>John Smith</h4>
+
+<span>9 min read</span>
+
+</div>
+
+</div>
+
+<button class="read-btn">
+Read More
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= AUTHORS ================= -->
+
+<section class="authors">
+
+<h2>Trending Writers</h2>
+
+<div class="author-grid">
+
+<div class="author-card">
+
+<img src="https://i.pravatar.cc/150?img=8">
+
+<h3>Emily Johnson</h3>
+
+<p>Technology Writer</p>
+
+<button>
+Follow
+</button>
+
+</div>
+
+<div class="author-card">
+
+<img src="https://i.pravatar.cc/150?img=11">
+
+<h3>Michael Lee</h3>
+
+<p>Business Expert</p>
+
+<button>
+Follow
+</button>
+
+</div>
+
+<div class="author-card">
+
+<img src="https://i.pravatar.cc/150?img=25">
+
+<h3>Olivia Brown</h3>
+
+<p>Travel Blogger</p>
+
+<button>
+Follow
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+<h2>
+Stay Updated
+</h2>
+
+<p>
+
+Subscribe to receive the latest blogs directly in your inbox.
+
+</p>
+
+<div class="newsletter-box">
+
+<input
+type="email"
+placeholder="Enter your email">
+
+<button>
+
+Subscribe
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-container">
+
+<div>
+
+<h2>SerenFeed</h2>
+
+<p>
+
+Write freely.
+Read endlessly.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<ul>
+
+<li>Home</li>
+<li>Explore</li>
+<li>Categories</li>
+<li>About</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Support</h3>
+
+<ul>
+
+<li>Help Center</li>
+<li>Privacy Policy</li>
+<li>Terms</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<div class="social-icons">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-twitter"></i>
+
+<i class="fab fa-linkedin"></i>
+
+</div>
+
+</div>
+
+</div>
+
+<p class="copyright">
+
+© 2026 SerenFeed. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
